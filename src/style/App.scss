@@ -1,0 +1,50 @@
+.header {
+  background-color: #2044c0;
+  color: white;
+  display: flex;
+  height: 50px;
+  align-items: center;
+
+  &__logo {
+    font-size: 26px;
+    padding: 10px;
+  }
+
+  &__button {
+    font-size: 22px;
+    border: white 1px solid;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #2044c0;
+    color: white;
+
+    &_selected {
+      background-color: #5a78e3;
+    }
+  }
+}
+
+.menu {
+  margin: 30px;
+  padding: 10px;
+  border: #2044c0 1px solid;
+  border-radius: 5px;
+  &__select {
+    padding: 10px 0;
+  }
+}
+
+.numOfLesson {
+  width: 100px;
+}
+
+.scheduleTable {
+  text-align: center;
+  border-spacing: 0;
+}
+
+.statisticsTable {
+  border: black 1px solid;
+}
